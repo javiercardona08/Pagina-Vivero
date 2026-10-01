@@ -1,0 +1,407 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.seccion1 {
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(4, 80, 4);
+}
+
+.titulo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.vivero {
+    color: rgb(190, 236, 190);
+    display: flex;
+    margin-right: 5px;
+}
+
+.hojas {
+    color: white;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contactanos {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(157, 207, 157);
+    border-radius: 30px;
+    border: rgb(5, 97, 5);
+    font-size: medium;
+    color: rgb(3, 73, 3);
+}
+
+.inicio {
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    gap: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(62, 128, 40);
+}
+
+.planta1 {
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    ;
+}
+
+.titulo2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.parrafo1 {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.exp-catalogo {
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 160px;
+    border: rgb(93, 141, 77);
+    background-color: white;
+    color: rgb(4, 80, 4);
+}
+
+.titulo3 {
+    text-align: center;
+    color: rgb(3, 73, 3);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 50px 0px 70px 0px;
+}
+
+.seccion3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px 0px 200px;
+    padding-bottom: 100px;
+}
+
+.auto {
+    width: 45px;
+    height: 30px;
+    background-color: rgb(170, 212, 170);
+    border-radius: 50%;
+    padding: 15px 8px 15px 8px;
+}
+
+.corazon {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(170, 212, 170);
+    border-radius: 50%;
+    padding: 15px 10px 15px 10px;
+}
+
+.planta2 {
+    width: 45px;
+    height: 40px;
+    background-color: rgb(170, 212, 170);
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+#img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-imagenes {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 140, 52);
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.descrip-img {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccion4 {
+    display: flex;
+    justify-content: center;
+}
+
+.recuadro3 {
+    width: 930px;
+    height: 300px;
+    background-color: rgb(210, 237, 210);
+    display: flex;
+    align-items: center;
+    padding: 10px 80px 10px 80px;
+}
+
+.planta3 {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 50px;
+    background-color: rgb(2, 107, 2);
+}
+
+.contenedor-descrip {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo-recuadro {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 96, 3);
+}
+
+.descrip {
+    font-size: large;
+}
+
+.att {
+    color: rgb(2, 68, 2);
+    font-size: large;
+}
+
+.seccion5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-seccion5 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 54, 2);
+}
+
+.sub-titulo-seccion5 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+}
+
+.seccion6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjeta1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(218, 254, 218);
+    border-radius: 10px;
+    width:380px;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+}
+
+.tarjeta2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 254, 218);
+    border-radius: 10px;
+    width: 380px;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+}
+
+.tarjeta3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 247, 218);
+    border-radius: 10px;
+    width: 380px;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+}
+
+.img-maceta {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(178, 225, 178);
+    border-radius: 10px 10px 0px 0px;
+    width: 380px;
+    padding: 40px 0px 40px 0px;
+
+}
+
+.img-cactus {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(178, 225, 178) ;
+    border-radius: 10px 10px 0px 0px;
+    width: 380px;
+    padding: 40px 0px 40px 0px;
+}
+
+.img-flor {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(178, 225, 178);
+    border-radius: 10px 10px 0px 0px;
+    width: 380px;
+    padding: 40px 0px 40px 0px;
+}
+
+.maceta {
+    width: 150px;
+}
+
+.cactus {
+    width: 150px;
+}
+
+.flor {
+    width: 150px;
+}
+
+.categoria {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color:rgb(3, 96, 3);
+    background-color:rgb(109, 189, 109);
+    margin: 15px 0px 15px 0px;
+}
+
+.tipo-planta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    color: rgb(4, 80, 4);
+    margin-bottom: 10px;
+}
+
+.descrip-planta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    margin-bottom: 40px;
+}
+
+.precio{
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(4, 80, 4) ;
+}
+
+.button-comprar{
+    margin-left: 210px;
+    padding: 10px;
+    border-radius: 150px;
+    border:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(4, 80, 4) ;
+}
+
+.seccion7{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(62, 128, 40) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 50px 0px 50px 0px;
+}
+
+.pregunta-seccion7{
+    color: white;
+}
+
+.parrafo-seccion7{
+    color: white;
+}
+
+.button-seccion7{
+    font-size:large;
+    padding: 10px;
+    width: 200px;
+    border: 0;
+    border-radius: 100px;
+    color:rgb(36, 74, 23);
+}
+
+.seccion8{
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: rgb(7, 57, 7);
+}
+
+.columna1-seccion8{
+    margin-right: 400px;
+
+}
+
+.columna2-seccion8{
+    margin-right: 250px;
+
+}
+
+.h4-seccion8{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 188, 150);
+    margin-bottom: 25px;
+}
+
+.p-seccion8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    color: white;
+}
+
+.seccion9{
+    display: flex;
+    flex-direction:column;
+}
+
+.linea{
+  border: none;
+  height: 2px;              
+  background-color: #496043;           
+  width: 100%;
+}
+
+.copyright{
+    text-align: center;
+    background-color:rgb(7, 57, 7) ;
+    color: rgb(176, 199, 169);
+    padding: 20px;
+}
